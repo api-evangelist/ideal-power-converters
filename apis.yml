@@ -1,8 +1,25 @@
 aid: ideal-power-converters
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ideal-power-converters.png
 name: Ideal Power Converters
-description: Ideal Power Converters is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Ideal Power Inc. (NASDAQ: IPWR), formerly Ideal Power Converters, is an Austin,
+  Texas power semiconductor company developing bidirectional bipolar junction transistor (B-TRAN)
+  technology for ultra-low conduction losses, bidirectional current flow, and fast fault protection
+  and switching. Its product portfolio includes B-TRAN power switches, SymCool power modules, and
+  B-TRAN Known Good Die, targeting data centers, energy storage systems, power grids, solid-state
+  circuit breakers, and EV charging infrastructure. Surfaced in the API Evangelist network as a
+  Battery Ventures portfolio company; the company publishes a corporate and investor web presence
+  but no public developer API or programmatic surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/ideal-power-converters/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Semiconductors
+- Power Electronics
+- Energy Storage
+- EV Charging
+- Clean Energy
+- Hardware
+- Battery Ventures
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ideal-power-converters-domain-security.yml
+- type: Website
+  url: https://idealpower.com/
+- type: Support
+  url: https://idealpower.com/contact-us/
+- type: News
+  url: https://idealpower.com/press-releases/
+- type: Investors
+  url: https://idealpower.com/investors-overview/
+- type: Careers
+  url: https://idealpower.com/careers/
+- type: Products
+  url: https://idealpower.com/btran-by-ideal-power/
+- type: Datasheets
+  url: https://idealpower.com/product-datasheets/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
